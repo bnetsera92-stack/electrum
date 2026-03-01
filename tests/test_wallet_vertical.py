@@ -1158,7 +1158,7 @@ class TestWalletSending(ElectrumTestCase):
         # ^ second seed: kingdom now gift initial age right velvet exotic harbor enforce kingdom kick
         wallet2 = WalletIntegrityHelper.create_standard_wallet(
             # bip39: uniform tank success logic lesson awesome stove elegant regular desert drip device, der: m/49'/1'/0'
-            keystore.from_xprv('uprv91HGbrNZTK4x8u22nbdYGzEuWPxjaHMREUi7CNhY64KsG5ZGnVM99uCa16EMSfrnaPTFxjbRdBZ2WiBkokoM8anzAy3Vpc52o88WPkitnxi'),
+            keystore.from_xprv('uprv91HGbrNZTK4x8u22nbdYGzEuWPxjaHMREUi7CNhY64KsG5ZGnVM99uCa16EMSfrnaPTFxjbRdBZ2WiBkokoM8Ay3Vpc52o88WPkitnxi'),
             gap_limit=2,
             config=self.config
         )
